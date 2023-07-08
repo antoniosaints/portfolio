@@ -13,7 +13,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: rgb(98, 106, 114);
+    color: rgb(0, 0, 0);
     font-family: 'Poppins', 'Times New Roman', Times, serif;
 }
 .container {
@@ -25,24 +25,11 @@ body {
     position: relative;
 }
 .container > .section-content {
-    width: 50%;
-    height: 350px;
-    position: absolute;
+    width: 90%;
+    height: 90%;
     padding: 10px;
-    left: 60px;
     border: none;
     background-color: aliceblue;
     border-radius: 6px;
     box-shadow: 2px 2px 10px rgb(116, 138, 139);
-}
-
-.container > .section-content > .square-round {
-    position: absolute;
-    right: -60%;
-    bottom: -20%;
-    background-color: rgba(240, 255, 255, 0.514);
-    border-radius: 6px;
-    box-shadow: 2px 2px 10px rgb(115, 143, 145);
-    height: 50%;
-    width: 70%;
 }
